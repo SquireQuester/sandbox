@@ -7,7 +7,7 @@ body {
   font-style: oblique;
 }
 
-button#btn1 {
+button {
   border: 1px solid black;
   color: black;
   background-color: beige;
@@ -20,7 +20,7 @@ button#btn1 {
   outline: none;
 }
 
-button:hover#btn1 {
+button:hover {
   transition: 3ms;
   background-color: black;
   color: beige;
