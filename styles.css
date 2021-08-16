@@ -7,8 +7,23 @@ body {
   font-style: oblique;
 }
 
-#btn1 {
-  border: 1px solid red;
-  color: white;
+button#btn1 {
+  border: 1px solid black;
+  color: black;
+  background-color: beige;
+  margin: 30px auto;
+  padding: 20px 25px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+}
+
+button:hover#btn1 {
+  transition: 3ms;
   background-color: black;
+  color: beige;
+  border: beige;
+  text-decoration: underline;
 }
